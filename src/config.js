@@ -7,8 +7,8 @@ const config = {
 		icon: '/favicon.ico'   //网页图标，支持外链
 	},
 
-	avatar: "/Documents/9AE6A2515762757483CD7E20198D7B76.jpg", // 头像
-	welcometitle: "Hi, I'm Leleo", // 标题
+	avatar: "img/avatar.jpg", // 头像
+	welcometitle: "Hi, I'm xxbbm", // 标题
 
 	// 颜色配置
 	color: {
@@ -150,5 +150,6 @@ const config = {
 
 	statement: ["备案号：XXICP备123456789号", "Copyright © 2025 Leleo"],
 }
+
 
 export default config
