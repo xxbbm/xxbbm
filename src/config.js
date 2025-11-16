@@ -22,7 +22,7 @@ const config = {
 	blur: 5, // 毛玻璃模糊效果
 
 	// 我的标签
-	tags: ['xxbbm'],
+	tags: ['蛊真人''春秋蝉''古月方源'],
 
 	// 默认背景壁纸
 	background: {
@@ -153,6 +153,7 @@ const config = {
 
 
 export default config
+
 
 
 
