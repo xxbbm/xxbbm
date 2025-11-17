@@ -132,7 +132,7 @@ const config = {
 
 	//项目卡片 其中 字段"show"控制初始卡片的text是否展开
 	projectcards: [
-		{ go: "🚀 前往", img: "/img/xbmt.jpg", title: "微信ai", subtitle: "春秋蝉鸣少年归", text: "If you see this line, I've managed to get your attention.", url: "https://u.wechat.com/ENWA_cbdmAzQmA66-Ta58yo?s=2", show: false },
+		{ go: "🚀 前往", img: "/img/xbmt.jpg", title: "微信ai", subtitle: "春秋蝉鸣少年归", text: "If you see this line, I've managed to get your attention.", url: "https://www.123684.com/s/1dqKjv-8p1hv", show: false },
 		{ go: "🗂️ 前往", img: "/img/xbmt1.jpg", title: "Project 2", subtitle: "2,000 miles of wonder", text: "If you see this line, I've managed to get your attention.", url: "https://github.com/xxbbm", show: false },
 		{ go: "📝 前往", img: "/img/xbmt2.jpg", title: "Project 3", subtitle: "3,000 miles of wonder", text: "If you see this line, I've managed to get your attention.", url: "https://github.com/xxbbm", show: false },
 		{ go: "👍 前往", img: "/img/xbmt3.jpg", title: "Project 4", subtitle: "4,000 miles of wonder", text: "If you see this line, I've managed to get your attention.", url: "https://github.com/xxbbm", show: false },
