@@ -134,7 +134,7 @@ const config = {
 	projectcards: [
 		{ go: "🚀 前往", img: "/img/xbmt.jpg", title: "微信ai", subtitle: "落魄谷中寒风吹", text: "If you see this line, I've managed to get your attention.", url: "https://www.123684.com/s/1dqKjv-8p1hv", show: false },
 		{ go: "🗂️ 前往", img: "/img/xbmt1.jpg", title: "客户端", subtitle: "春秋蝉鸣少年归", text: "If you see this line, I've managed to get your attention.", url: "https://www.123684.com/s/1dqKjv-Kp1hv", show: false },
-		{ go: "📝 前往", img: "/img/xbmt2.jpg", title: "Project 3", subtitle: "3,000 miles of wonder", text: "If you see this line, I've managed to get your attention.", url: "https://github.com/xxbbm", show: false },
+		{ go: "📝 前往", img: "/img/xbmt2.jpg", title: "root ", subtitle: "荡魂山上石人泪", text: "If you see this line, I've managed to get your attention.", url: "https://www.123684.com/s/1dqKjv-lp1hv", show: false },
 		{ go: "👍 前往", img: "/img/xbmt3.jpg", title: "Project 4", subtitle: "4,000 miles of wonder", text: "If you see this line, I've managed to get your attention.", url: "https://github.com/xxbbm", show: false },
 		{ go: "🗃 前往", img: "/img/xbmt4.jpg", title: "Project 5", subtitle: "5,000 miles of wonder", text: "If you see this line, I've managed to get your attention.", url: "https://github.com/xxbbm", show: false },
 		{ go: "🎨 前往", img: "/img/xbmt5.jpg", title: "Project 6", subtitle: "6,000 miles of wonder", text: "If you see this line, I've managed to get your attention.", url: "https://github.com/xxbbm", show: false },
