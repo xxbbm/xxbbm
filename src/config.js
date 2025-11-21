@@ -132,7 +132,7 @@ const config = {
 
 	//项目卡片 其中 字段"show"控制初始卡片的text是否展开
 	projectcards: [
-		{ go: "🚀 前往", img: "/img/xbmt.jpg", title: "博客", subtitle: "落魄谷中寒风吹", text: "If you see this line, I've managed to get your attention.", url: "https://github.com/xxbbm", show: false },
+		{ go: "🚀 前往", img: "/img/xbmt.jpg", title: "博客", subtitle: "落魄谷中寒风吹", text: "懒得做了", url: "", show: false },
 		{ go: "🗂️ 前往", img: "/img/xbmt1.jpg", title: "赞助", subtitle: "春秋蝉鸣少年归", text: "If you see this line, I've managed to get your attention.", url: "", show: false },
 		{ go: "📝 前往", img: "/img/xbmt2.jpg", title: "网盘", subtitle: "荡魂山上石人泪", text: "If you see this line, I've managed to get your attention.", url: "https://woahu3yn.cn-hk1.rainapp.top/", show: false },
 		{ go: "👍 前往", img: "/img/xbmt3.jpg", title: "Project 4", subtitle: "定仙游走魔向北", text: "If you see this line, I've managed to get your attention.", url: "https://github.com/xxbbm", show: false },
