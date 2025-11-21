@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>赞助我们 - 支持我们的工作</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: url('images/IMG_3787.JPG') no-repeat center center fixed;
+            background-size: cover;
+            min-height: 100vh;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        /* 确保内容在背景图片上清晰可见 */
+        header, .sponsor-info, .image-section {
+            background: rgba(255, 255, 255, 0.85) !important;
+        }
+        
+        header {
+            text-align: center;
+            padding: 40px 0;
+            background: rgba(255, 255, 255, 0.9);
+            border-radius: 15px;
+            margin: 20px 0;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+        }
+        
+        h1 {
+            font-size: 2.5em;
+            color: #2c3e50;
+            margin-bottom: 10px;
+        }
+        
+        .subtitle {
+            font-size: 1.2em;
+            color: #7f8c8d;
+            margin-bottom: 20px;
+        }
+        
+        .kawaii-decoration {
+            display: inline-block;
+            background: linear-gradient(45deg, #ff9a9e, #fad0c4, #fbc2eb, #a6c1ee);
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+            font-weight: bold;
+            font-size: 1.4em;
+            padding: 10px 20px;
+            border-radius: 50px;
+            margin-top: 15px;
+            animation: glow 2s infinite alternate;
+        }
+        
+        @keyframes glow {
+            from {
+                box-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073;
+            }
+            to {
+                box-shadow: 0 0 15px #fff, 0 0 25px #ff4da6, 0 0 35px #ff4da6, 0 0 45px #ff4da6;
+            }
+        }
+        
+        .content {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 30px;
+            justify-content: center;
+            margin: 30px 0;
+        }
+        
+        .sponsor-info {
+            min-width: 300px;
+            background: rgba(255, 255, 255, 0.9);
+            border-radius: 15px;
+            padding: 30px;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+            margin: 20px auto;
+            max-width: 800px;
+        }
+        
+        .image-section {
+            min-width: 300px;
+            background: rgba(255, 255, 255, 0.9);
+            border-radius: 15px;
+            padding: 20px;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        
+        .two-image-layout {
+            display: flex;
+            flex-direction: row;
+            gap: 20px;
+            align-items: center;
+        }
+        
+        .two-image-layout .image-container {
+            flex: 1;
+            margin: 0;
+            background: linear-gradient(145deg, #fdfd96, #ffffff);
+            border-radius: 15px;
+            padding: 15px;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .two-image-layout .image-container:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 12px 20px rgba(0, 0, 0, 0.15);
+        }
+        
+        .two-image-layout .image-container::before {
+            content: "";
+            position: absolute;
+            top: -5px;
+            left: -5px;
+            right: -5px;
+            bottom: -5px;
+            background: linear-gradient(45deg, #ff6b6b, #4ecdc4, #45b7d1, #ffbe0b, #fb5607);
+            z-index: -1;
+            border-radius: 20px;
+            animation: rainbow-border 3s linear infinite;
+            background-size: 400% 400%;
+        }
+        
+        @keyframes rainbow-border {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+        
+        .image-container img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+            transition: transform 0.3s ease;
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+        }
+        
+        .image-container img:hover {
+            transform: scale(1.05);
+        }
+        
+        .image-title {
+            font-size: 1.3em;
+            font-weight: bold;
+            margin: 15px 0 10px 0;
+            color: #2c3e50;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+        }
+        
+        .image-description {
+            color: #7f8c8d;
+            font-size: 0.95em;
+        }
+        
+        /* 二次元风格装饰元素 */
+        .kawaii-corner {
+            position: absolute;
+            width: 60px;
+            height: 60px;
+            background: rgba(255, 255, 255, 0.7);
+            border-radius: 50%;
+            z-index: 2;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        
+        .kawaii-corner.tl {
+            top: -20px;
+            left: -20px;
+        }
+        
+        .kawaii-corner.tr {
+            top: -20px;
+            right: -20px;
+        }
+        
+        .kawaii-corner.bl {
+            bottom: -20px;
+            left: -20px;
+        }
+        
+        .kawaii-corner.br {
+            bottom: -20px;
+            right: -20px;
+        }
+        
+        
+        
+        .sponsor-title {
+            font-size: 1.8em;
+            color: #2c3e50;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        
+        .sponsor-text {
+            margin-bottom: 20px;
+            font-size: 1.1em;
+            line-height: 1.8;
+        }
+        
+        .sponsor-ways {
+            margin-top: 30px;
+        }
+        
+        .sponsor-item {
+            background: #ecf0f1;
+            padding: 15px;
+            border-radius: 10px;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+        }
+        
+        .sponsor-icon {
+            font-size: 1.5em;
+            margin-right: 15px;
+            color: #3498db;
+        }
+        
+        .sponsor-text {
+            flex: 1;
+        }
+        
+        .cta-button {
+            display: inline-block;
+            background: #3498db;
+            color: white;
+            padding: 15px 30px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.1em;
+            margin-top: 20px;
+            transition: background 0.3s ease, transform 0.3s ease;
+            border: none;
+            cursor: pointer;
+        }
+        
+        .cta-button:hover {
+            background: #2980b9;
+            transform: translateY(-2px);
+        }
+        
+        footer {
+            text-align: center;
+            padding: 30px 0;
+            color: #7f8c8d;
+            font-size: 0.9em;
+            position: relative;
+            margin-top: 30px;
+            background: rgba(255, 255, 255, 0.85);
+            border-radius: 15px;
+            margin: 30px 20px 0 20px;
+        }
+        
+        .footer-kawaii {
+            margin-top: 15px;
+            font-size: 1.2em;
+            color: #e91e63;
+            font-weight: bold;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+        }
+        
+        @media (max-width: 768px) {
+            .content {
+                flex-direction: column;
+            }
+            
+            h1 {
+                font-size: 2em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>赞助我们</h1>
+            <p class="subtitle">支持我们的工作，帮助我们持续发展</p>
+            <div class="kawaii-decoration">✨ 感谢您的支持 ✨</div>
+        </header>
+        
+        <div class="content">
+            <div class="sponsor-info">
+                <h2 class="sponsor-title">成为我们的赞助者</h2>
+                <p class="sponsor-text">感谢您对我们工作的关注和支持。您的赞助将帮助我们：</p>
+                <ul style="margin: 20px 0; padding-left: 20px;">
+                    <li style="margin-bottom: 10px; font-size: 1.1em;">持续改进我们的项目</li>
+                    <li style="margin-bottom: 10px; font-size: 1.1em;">提供更优质的服务</li>
+                    <li style="margin-bottom: 10px; font-size: 1.1em;">支持开源社区的发展</li>
+                </ul>
+                
+                <div class="sponsor-ways">
+                    <div class="sponsor-item">
+                        <div class="sponsor-icon">💰</div>
+                        <div class="sponsor-text">通过财务赞助支持我们</div>
+                    </div>
+                    <div class="sponsor-item">
+                        <div class="sponsor-icon">👥</div>
+                        <div class="sponsor-text">分享我们的项目给更多人</div>
+                    </div>
+                    <div class="sponsor-item">
+                        <div class="sponsor-icon">💻</div>
+                        <div class="sponsor-text">贡献代码或提出改进建议</div>
+                    </div>
+                </div>
+                
+                <a href="#" class="cta-button">立即赞助</a>
+            </div>
+        </div>
+        
+        <div class="content">
+            <div class="image-section two-image-layout">
+                <div class="image-container">
+                    <div class="kawaii-corner tl">🎀</div>
+                    <div class="kawaii-corner tr">⭐</div>
+                    <img src="images/IMG_3814.JPG" alt="图片1">
+                    <div class="image-title">图片展示 1</div>
+                    <div class="image-description">这张图片展示了我们的工作成果</div>
+                    <div class="kawaii-corner bl">💖</div>
+                    <div class="kawaii-corner br">🌸</div>
+                </div>
+                
+                <div class="image-container">
+                    <div class="kawaii-corner tl">🎀</div>
+                    <div class="kawaii-corner tr">⭐</div>
+                    <img src="images/IMG_3815.JPG" alt="图片2">
+                    <div class="image-title">图片展示 2</div>
+                    <div class="image-description">这张图片记录了我们的关键时刻</div>
+                    <div class="kawaii-corner bl">💖</div>
+                    <div class="kawaii-corner br">🌸</div>
+                </div>
+            </div>
+        </div>
+        
+        <footer>
+            <p>感谢您的关注与支持 - 一起创造更美好的未来</p>
+            <div class="footer-kawaii">🌟 あなたの応援に感謝します！ 🌟</div>
+        </footer>
+    </div>
+</body>
+</html>
