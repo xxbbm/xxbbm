@@ -133,9 +133,9 @@ const config = {
 	//项目卡片 其中 字段"show"控制初始卡片的text是否展开
 	projectcards: [
 		{ go: "🚀 前往", img: "/img/xbmt.jpg", title: "博客", subtitle: "落魄谷中寒风吹", text: "懒得做了", url: "", show: false },
-		{ go: "🗂️ 前往", img: "/img/xbmt1.jpg", title: "赞助", subtitle: "春秋蝉鸣少年归", text: "If you see this line, I've managed to get your attention.", url: "http://111.170.6.79:42698/", show: false },
-		{ go: "📝 前往", img: "/img/xbmt2.jpg", title: "网盘", subtitle: "荡魂山上石人泪", text: "If you see this line, I've managed to get your attention.", url: "http://111.170.6.79:46487/", show: false },
-		{ go: "👍 前往", img: "/img/xbmt3.jpg", title: "Project 4", subtitle: "定仙游走魔向北", text: "If you see this line, I've managed to get your attention.", url: "https://github.com/xxbbm", show: false },
+		{ go: "🗂️ 前往", img: "/img/xbmt1.jpg", title: "赞助", subtitle: "春秋蝉鸣少年归", text: "⭕", url: "http://111.170.6.79:42698/", show: false },
+		{ go: "📝 前往", img: "/img/xbmt2.jpg", title: "网盘", subtitle: "荡魂山上石人泪", text: "没卵用", url: "http://111.170.6.79:46487/", show: false },
+		{ go: "👍 前往", img: "/img/xbmt3.jpg", title: "唐比游戏", subtitle: "定仙游走魔向北", text: "唐比游戏来的（ai写）", url: "http://111.170.6.79:34575/", show: false },
 		{ go: "🗃 前往", img: "/img/xbmt4.jpg", title: "Project 5", subtitle: "逆流河上万仙退", text: "If you see this line, I've managed to get your attention.", url: "https://github.com/xxbbm", show: false },
 		{ go: "🎨 前往", img: "/img/xbmt5.jpg", title: "Project 6", subtitle: "爱情不敌坚持泪", text: "If you see this line, I've managed to get your attention.", url: "https://github.com/xxbbm", show: false },
 		{ go: "💍 前往", img: "/img/xbmt6.jpg", title: "Project 7", subtitle: "宿命天成命中败", text: "If you see this line, I've managed to get your attention.", url: "https://github.com/xxbbm", show: false },
@@ -146,6 +146,7 @@ const config = {
 }
 
 export default config
+
 
 
 
